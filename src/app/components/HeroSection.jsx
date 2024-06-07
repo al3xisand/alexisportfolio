@@ -19,7 +19,7 @@ const HeroSection = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
-            <br></br>
+            <br />
             <TypeAnimation
               sequence={[
                 "Alexis",
@@ -36,11 +36,11 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            "Welcome to the intersection of innovation and imagination. Crafting web experiences that captivate, engage, and inspire."
+            &quot;Welcome to the intersection of innovation and imagination. Crafting web experiences that captivate, engage, and inspire.&quot;
           </p>
           <div>
             <Link
-              href="/#contact"
+              href="/alexisportfolio/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Hire Me
@@ -65,7 +65,7 @@ const HeroSection = () => {
           <div className="relative w-[150px] h-[200px] sm:w-[150px] sm:h-[150px] md:w-[200px] md:h-[200px] lg:w-[300px] lg:h-[300px]">
             <Image
               src="/images/yo.jpeg"
-              alt="hero image"
+              alt="Hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
